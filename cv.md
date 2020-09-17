@@ -40,7 +40,7 @@ ___
 #### Software developer
 _AVILOO GmbH - Vienna, Austria - Since July 2019_
 * Project management with partner companies
-* Design and implementation of new functionality under consideration of the existing software architecture.
+* Design and implementation of new functionality under consideration of the existing software architecture
 * Implemented Development and Testing automation with Jenkins CI, Selenium and additional tools/frameworks
 * Linux embedded processes administration, such as file server and VPN
 
