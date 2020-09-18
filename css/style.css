@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    -box-sizing: border-box; /* ie, opera */
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari, Chrome */
+}
+
+body{
+    background: #f5f7f8;
+    padding: 20px;
+}
+
+.wrapper-main{
+    background: #ffffff;
+    display: flex;
+}
+
+.main-right{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.sections{
+    padding-top: 30px;
+    border-bottom: 3px solid darkgrey;
+}
