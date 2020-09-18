@@ -18,8 +18,14 @@ body{
 }
 .sections{
     padding-top: 30px;
-    padding-bottom: 5px;
-    border-bottom: 3px solid #a9a9a9;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #000000;
+
+}
+.subsection-splitter{
+    border-bottom: 1px dashed #a9a9a9;
+    /*border-bottom: 1px dashed #008cff;*/
+    padding: 15px 0;
 }
 .profession{
     padding-top: 0;
@@ -30,6 +36,9 @@ body{
 .contact-table{
     font-style: italic;
 }
+.contact-table-distance{
+    padding-bottom: 15px;
+}
 .skills-section{
     padding-top: 15px;
 }
@@ -38,7 +47,26 @@ body{
     border-radius: 15px;
     padding: 5px 10px;
     margin: 10px 0;
-    background: #a9a9a9;
-    border: 0 solid #a9a9a9;
+    background: #008cff;
+    border: 0 solid #008cff;
+}
 
+/*LANGUAGE*/
+.dot-blue{
+    height: 25px;
+    width: 25px;
+    background-color: #008cff;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: inline-block;
+    float: right;
+}
+.dot-grey{
+    height: 25px;
+    width: 25px;
+    background-color: #a9a9a9;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: inline-block;
+    float: right;
 }
