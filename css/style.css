@@ -18,7 +18,8 @@ body{
 }
 .sections{
     padding-top: 30px;
-    border-bottom: 3px solid darkgrey;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #a9a9a9;
 }
 .profession{
     padding-top: 0;
@@ -28,4 +29,16 @@ body{
 }
 .contact-table{
     font-style: italic;
+}
+.skills-section{
+    padding-top: 15px;
+}
+.skills-border{
+    width: fit-content;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    background: #a9a9a9;
+    border: 0 solid #a9a9a9;
+
 }
