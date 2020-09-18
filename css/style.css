@@ -20,25 +20,34 @@ body{
     padding-top: 30px;
     padding-bottom: 10px;
     border-bottom: 3px solid #000000;
-
+    border-spacing: 10px;
+}
+.indent{
+    padding-top: 10px;
 }
 .subsection-splitter{
     border-bottom: 1px dashed #a9a9a9;
     /*border-bottom: 1px dashed #008cff;*/
     padding: 15px 0;
 }
+
+/*name*/
 .profession{
     padding-top: 0;
     font-style: normal;
     font-size: 25px;
     color: #000000;
 }
+
+/*CONTACTS*/
 .contact-table{
     font-style: italic;
 }
 .contact-table-distance{
     padding-bottom: 15px;
 }
+
+/*SKILLS*/
 .skills-section{
     padding-top: 15px;
 }
@@ -47,8 +56,8 @@ body{
     border-radius: 15px;
     padding: 5px 10px;
     margin: 10px 0;
-    background: #008cff;
-    border: 0 solid #008cff;
+    background: #a9a9a9;
+    border: 0 solid #a9a9a9;
 }
 
 /*LANGUAGE*/
@@ -70,3 +79,12 @@ body{
     display: inline-block;
     float: right;
 }
+
+/*INTERESTS*/
+.size{
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
+    margin-right: 10px;
+}
+/*ABOUT ME*/
