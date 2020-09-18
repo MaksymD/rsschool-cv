@@ -4,17 +4,14 @@
     -moz-box-sizing: border-box; /* Firefox */
     -webkit-box-sizing: border-box; /* Safari, Chrome */
 }
-
 body{
     background: #f5f7f8;
     padding: 20px;
 }
-
 .wrapper-main{
     background: #ffffff;
     display: flex;
 }
-
 .main-right{
     padding-left: 90px;
     padding-right: 90px;
