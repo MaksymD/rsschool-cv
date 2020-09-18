@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    -box-sizing: border-box; /* ie, opera */
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari, Chrome */
+}
+body{
+    background: #f5f7f8;
+    padding: 20px;
+}
+.wrapper-main{
+    background: #ffffff;
+    display: flex;
+}
+.main-right{
+    padding: 10px 90px 10px 40px;
+}
+.main-left{
+    padding: 10px 40px 10px 10px;
+}
+.sections{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #000000;
+    border-spacing: 10px;
+}
+.indent{
+    padding-top: 10px;
+}
+.subsection-splitter{
+    border-bottom: 1px dashed #a9a9a9;
+    /*border-bottom: 1px dashed #008cff;*/
+    padding: 15px 0;
+}
+
+/*name*/
+.profession{
+    padding-top: 0;
+    font-style: normal;
+    font-size: 25px;
+    color: #000000;
+}
+
+/*CONTACTS*/
+.contact-table{
+    font-style: italic;
+}
+
+/*SKILLS*/
+.skills-section{
+    padding-top: 15px;
+}
+.skills-border{
+    width: fit-content;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    background: #a9a9a9;
+    border: 0 solid #a9a9a9;
+}
+
+/*LANGUAGES*/
+.dot-blue{
+    height: 25px;
+    width: 25px;
+    background-color: #008cff;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: inline-block;
+    float: right;
+}
+.dot-grey{
+    height: 25px;
+    width: 25px;
+    background-color: #a9a9a9;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: inline-block;
+    float: right;
+}
+
+/*INTERESTS*/
+.size{
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+/*WORK EXPERIENCE*/
+.company-name{
+    font-style: normal;
+    font-weight: bold;
+    color: #008cff;
+}
+
+/*EDUCATION*/
+.subsection-splitter-edu{
+    border-bottom: 1px dashed #a9a9a9;
+    /*border-bottom: 1px dashed #008cff;*/
+    padding: 5px 0 10px 0;
+}
